@@ -304,7 +304,7 @@ CREATE TABLE DEPENDENT (
     Relationship VARCHAR(20) CHECK(Relationship IN ('Spouse','Son','Daughter','Parent','Other')),
     FOREIGN KEY (Essn) REFERENCES EMPLOYEE(SSN) ON DELETE CASCADE
 );
-```
+````
 
 ### 4.3 Normalization Process
 
